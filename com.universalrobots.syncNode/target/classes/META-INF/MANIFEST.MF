@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1762793734463
+Build-Jdk-Spec: 1.8
+Bundle-Activator: com.universalrobots.syncNode.impl.Activator
+Bundle-Category: URCap
+Bundle-ContactAddress: 600 Riverpark Dr, North Reading, MA 01864
+Bundle-Copyright: Copyright notice (C)
+Bundle-Description: This URCap adds a sync() program node.
+Bundle-LicenseType: Sample License
+Bundle-ManifestVersion: 2
+Bundle-Name: SyncNode
+Bundle-SymbolicName: com.universalrobots.SyncNode
+Bundle-Vendor: Universal Robots
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Import-Package: com.ur.urcap.api.contribution;version="[1.9,2)",com.ur.u
+ rcap.api.contribution.program;version="[1.9,2)",com.ur.urcap.api.contri
+ bution.program.swing;version="[1.8,2)",com.ur.urcap.api.domain.data;ver
+ sion="[1.11,2)",com.ur.urcap.api.domain.script;version="[1.8,2)",javax.
+ swing,org.osgi.framework;version="[1.6,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+URCapCompatibility-CB3: false
+URCapCompatibility-eSeries: true
